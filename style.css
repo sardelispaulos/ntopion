@@ -1,0 +1,555 @@
+/* age verification */
+
+    @media (max-width:768px) {
+      .mobile-margin-bottom{
+        margin-bottom:.5rem;
+      }
+      
+    }
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.603);
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .modal-content {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    .modal-content h2 {
+      margin-bottom: 20px;
+    }
+
+    .modal-content button {
+      padding: 10px 20px;
+      margin: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .btn-yes {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .btn-no {
+      background-color: #f44336;
+      color: white;
+    }
+    
+/* end age verification */
+
+/* navbar */
+.navbar {
+    background-color: #8f640d !important;
+    color: white;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem
+      
+  }
+
+  /* end navbar */
+
+ /* carousel */
+   .carousel-image {
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.carousel-overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.1));
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+}
+.carousel-item {
+	height: 95vh;
+	min-height: 300px;
+	background: no-repeat center center scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+
+@media (max-width: 768px) {
+  .carousel-caption h1 {
+    font-size: 2rem;
+  }
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+  .carousel-overlay {
+    padding-left: 20px;
+  }
+}
+
+/* end carousel */
+
+/* language-switch */
+
+.language-switch {
+  color: rgb(182, 182, 182);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+/* end language-switch */
+
+/* footer  */
+footer.footer {
+    height: 200px;
+    width: 100%;
+    background-color: #8f640d; 
+    color: #f9f1e7;
+}
+
+/* end footer  */
+/* our story  */
+.our-story-section > .col-md-6 {
+  animation: fadeInUp 1s ease forwards;
+}
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(50px) scale(0.95);
+  transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+  will-change: opacity, transform;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+.our-story-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #f9f1e7, #e6d3a3);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(219, 164, 12, 0.568);
+  color: #4a3b1b; 
+ 
+}
+.section-title {
+  position: relative;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  padding-bottom: 0.3rem;
+}
+
+.section-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 60px;
+  background-color: #b17a0f; 
+  border-radius: 2px;
+}
+@media (min-width: 768px) {
+  .our-story-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  } 
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (min-width: 768px) {
+  .our-story-section {
+    padding: 6rem 3rem;
+  }
+}
+
+/* Keep fade-in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* text color */
+.lead {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: #dbd810b0;
+}
+
+
+.our-story-section p {
+  color: #5a4b21;
+  line-height: 1.6;
+}
+@media (min-width: 768px) {
+  .our-story-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  } 
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+.our-story-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #f9f1e7, #e6d3a3);
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(219, 164, 12, 0.568);
+  color: #4a3b1b; 
+}
+
+
+
+
+
+/* backround color */
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(74, 59, 27, 0.5); 
+
+  z-index: -1;
+}
+/* end backround color  */
+
+/*title */
+
+#title{
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  color: #4b2e17; 
+  margin-bottom: 2rem;
+  position: relative;
+  animation: fadeInUp 1s ease-in-out;
+}
+#title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #d4a373; 
+  margin: 1rem auto 0;
+  border-radius: 2px;
+}
+ /* end title */
+  /* ========== Βασικές Ρυθμίσεις ========== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+}
+
+h1, p {
+  text-align: center;
+}
+
+/* ========== Κουμπιά ========== */
+button,
+.btn-ntopion-alt,
+#cartButton,
+.btn-submit {
+  display: inline-block;
+  width: 100%;
+  padding: 12px 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 2px solid #c89b3c;
+  background-color: #fff;
+  color: #c89b3c;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+button:hover,
+.btn-ntopion-alt:hover,
+#cartButton:hover,
+.btn-submit:hover {
+  transform: translateY(-3px);
+  background-color: #c89b3c;
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Ειδικά για #cartButton */
+#cartButton {
+  background-color: #c89b3c;
+  color: #fff;
+  border: 2px solid #f8f8f8;
+}
+
+/* Ειδικά για .btn-submit */
+.btn-submit {
+  background: linear-gradient(135deg, #b8810b81, #3888091c);
+  border: none;
+  border-radius: 10px;
+  padding: 12px 30px;
+}
+
+.btn-submit:hover {
+  box-shadow: 0 5px 15px rgba(190, 141, 4, 0.3);
+}
+
+/* ========== Εικόνες ========== */
+.about-img,
+.img-fluid {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  margin: 0 auto;
+}
+
+.about-img:hover,
+.img-fluid:hover {
+  transform: scale(0.95);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* ========== Κάρτες ========== */
+.card {
+
+  height: 100%;
+}
+
+.card-body {
+  background-color: #dea730a2;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* ========== Φόρμα Επικοινωνίας ========== */
+.contact-wrapper {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+  background: linear-gradient(135deg, #b8810b81, #2b3a022d);
+  padding: 40px;
+  color: white;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateX(10px);
+}
+
+.contact-icon {
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.contact-form {
+  padding: 40px;
+}
+
+.contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact-form label,
+.form-label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.form-control,
+input,
+textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 2px solid #eee;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #b8810b81;
+  box-shadow: none;
+}
+
+/* ========== Κοινωνικά Δίκτυα ========== */
+.social-links {
+  margin-top: 30px;
+}
+
+.social-icon {
+  width: 35px;
+  height: 35px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background: white;
+  color: #b8810b81;
+  transform: translateY(-3px);
+}
+
+/* ========== Pop-up ========== */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup.hidden {
+  display: none;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 300px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* ========== Εφέ Fade In ========== */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ========== Καλάθι & Προϊόντα ========== */
+.products, .cart {
+  margin-bottom: 20px;
+}
+
+.product {
+  margin-bottom: 10px;
+}
+
+.cart ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.remove-btn {
+  margin-left: 8px;
+  padding: 2px 6px;
+  font-size: 12px;
+  background-color: transparent;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  color: darkred;
+  font-weight: bold;
+}
+
+/* ========== Φόρμα Box ========== */
+.form-box {
+  max-width: 500px;
+  margin: auto;
+  padding: 50px;
+  background: #ffffff;
+  border: 10px solid #f2f2f2;
+}
